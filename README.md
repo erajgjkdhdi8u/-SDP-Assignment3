@@ -7,6 +7,12 @@
 ## About
 This is a beginner-level Java console application that **simulates** sending notifications through Telegram, Email, SMS, Kafka, and Push. It demonstrates a Bridge between different notification types and delivery channels.
 
+## UML Class Diagram
+
+![Bridge Pattern UML](uml/class-diagram.svg)
+
+Editable version: [class-diagram.drawio](uml/class-diagram.drawio).
+
 ## Requirements
 - Interface: `MessageSender`
 - Senders: Telegram, Email, SMS (160-character limit), Kafka, Push
